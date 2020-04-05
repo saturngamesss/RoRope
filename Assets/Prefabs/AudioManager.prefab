@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8242958544201661058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8242958544201661087}
+  - component: {fileID: 8242958544201661057}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8242958544201661087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242958544201661058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.093525, y: 15.529774, z: 73.5625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8242958544201661057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242958544201661058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b217d168daf6d98428eb5eaceb3013b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+  sounds:
+  - name: Click
+    clip: {fileID: 8300000, guid: 2b8da8a3078fd244fb4c065a47790e95, type: 3}
+    volume: 0.3
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: d8d198ce825bee74b86cc872a0905ff5, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: Finish
+    clip: {fileID: 8300000, guid: 13911cca846101e4795291e901d6ae0d, type: 3}
+    volume: 0.5
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: GunShot
+    clip: {fileID: 8300000, guid: 0463447c9b808b54f89d27f95bf73c31, type: 3}
+    volume: 1
+    volumeVariance: 1
+    pitch: 1
+    pitchVariance: 1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 2810959b5e7ce584290efc714583af4e, type: 3}
+    volume: 0.5
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: af2da2848435c4940921f1a0552e31ef, type: 3}
+    volume: 0.5
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: PowerUp
+    clip: {fileID: 8300000, guid: bc24be86fadc32a4a9e52aee9d3d9ae5, type: 3}
+    volume: 0.5
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
+  - name: Rope
+    clip: {fileID: 8300000, guid: 1efa00f93bcdfda4a99ad8d592eb646e, type: 3}
+    volume: 1
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 7a9caa92fc7f4f0408bd9058a077e626, type: 2}
+    source: {fileID: 0}
